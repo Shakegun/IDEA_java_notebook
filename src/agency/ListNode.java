@@ -1,6 +1,6 @@
-package test;
+package agency;
 
-
+import agency.ListNode;
 public class ListNode {
     int val;
     ListNode next;
@@ -10,6 +10,9 @@ public class ListNode {
     }
 }
 
+/**
+ * 链表的创建、遍历
+ */
 class Test{
     public static void main(String[] args) {
         ListNode nodeFirst = new ListNode(0);   //创建首节点
@@ -32,24 +35,4 @@ class Test{
         }
         System.out.println();
     }
-    public void addTwoNumbers(ListNode l1, ListNode l2) {
-        Integer s = Integer.parseInt(String.valueOf(l1.val+ l2.val).substring(-1));
-
-    }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
